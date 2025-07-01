@@ -1,0 +1,12 @@
+fileCount.sh
+fileList_20250630_223812.txt
+fileList_20250630_223854.txt
+fileList.sh
+fileList.txt
+forLoop.sh
+in_out2.sh
+in_out.sh
+run_all.sh
+something
+whileLoop.sh
+There are 11 files in this directory
