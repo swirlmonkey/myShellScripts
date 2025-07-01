@@ -6,7 +6,7 @@ declare -a filenames
 filenames=(*)
 # acquiring only number of files
 # | is the pipeline, aka dataflow
-# stdin (input) | stdout (output) | stderr (error)
+# stdin (input) | stdout (output) | stderr (error) ## can be chained further
 num_entries=$(ls -lq | wc -l)   # -q for non-printable characters
 # mock up fileList
 # fileList=(2 3 5)
@@ -28,7 +28,9 @@ else
     echo "$filename created successfully"
 # save file list within a directory to a file
     echo "Here's a list of files in this directory $(pwd)" > fileList.txt
-    ls -t >> $filename      # ls -t sort it by time created
-    # cat -n $filename
-    echo "There are $num_entries files in this directory" >> $filename
+    ls -t | cat -n >> $filename      # ls -t sort it by time created and the number of files
+    # cat -n >> $filename           # to add number of the index of each file per line
+    bareVid=$(ls | grep -iE "\.(mp4|avi|mkv)")   # to find files in a eg. movie folder that are not packed inside a folder, exposing .mp4 or other extensions 
+    echo -e "There are $num_entries files in this directory \n" >> $filename
+    echo -e "These files are not in folders \n $bareVid"
 fi

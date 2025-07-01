@@ -1,0 +1,20 @@
+     1	fileList_20250701_230106.txt
+     2	fileList.txt
+     3	fileCount.sh
+     4	something .mp4
+     5	fileList_20250701_230018.txt
+     6	fileList_20250701_223900.txt
+     7	README.md
+     8	renameFiles.sh
+     9	fileList_20250701_221928.txt
+    10	fileList_20250701_221903.txt
+    11	fileList_20250630_223956.txt
+    12	fileList_20250630_223854.txt
+    13	fileList_20250630_223812.txt
+    14	fileList.sh
+    15	whileLoop.sh
+    16	forLoop.sh
+    17	run_all.sh
+    18	in_out2.sh
+    19	in_out.sh
+    20	something

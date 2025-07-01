@@ -1,0 +1,18 @@
+     1	fileList_20250701_223900.txt
+     2	fileList.txt
+     3	fileCount.sh
+     4	README.md
+     5	renameFiles.sh
+     6	fileList_20250701_221928.txt
+     7	fileList_20250701_221903.txt
+     8	fileList_20250630_223956.txt
+     9	fileList_20250630_223854.txt
+    10	fileList_20250630_223812.txt
+    11	fileList.sh
+    12	whileLoop.sh
+    13	forLoop.sh
+    14	run_all.sh
+    15	in_out2.sh
+    16	in_out.sh
+    17	something
+There are 17 files in this directory
